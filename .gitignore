@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+build/
+dist/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Local environments
+.env
+.env.*
+.venv/
+venv/
+ENV/
+
+# Local caches that should never be checked in
+~/.cache/otadtk/
+embedding/
+kernel_stats/
+fad_stats/
+
+# Anything author-revealing that might sneak in (defence in depth)
+.git-credentials
+.netrc
+.ssh/

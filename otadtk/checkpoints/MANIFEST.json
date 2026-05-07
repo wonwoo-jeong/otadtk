@@ -1,0 +1,74 @@
+{
+  "ast/adapter_sinkhorn_native_best.pt": {
+    "sha256": "bb6d999e9f9f77f179c56801cdaceaf200a8aeab839efb3c5f6e6fc1126566b6",
+    "size_bytes": 1193233
+  },
+  "ast/adapter_triplet_contrastive_best.pt": {
+    "sha256": "0925ca8a93885d2ca00b70e2fd41c69b59fb3b73e8267e774ef390a8cc3a707b",
+    "size_bytes": 1193281
+  },
+  "audiomae/adapter_sinkhorn_native_best.pt": {
+    "sha256": "c7a8d6293888a2d8dd53ea33332c2e427997d7723a2a555c8cc50b8d0c8ea3b1",
+    "size_bytes": 1193233
+  },
+  "audiomae/adapter_triplet_contrastive_best.pt": {
+    "sha256": "6e2e152d7e81a8f3ed2a32fbb5647bfd3ea4ef1e246c10930f120d7e81a9afe1",
+    "size_bytes": 1193281
+  },
+  "beats/adapter_sinkhorn_native_best.pt": {
+    "sha256": "72104141399184abc5382c2274767629933ed012b293b96a028ac4581d3000d6",
+    "size_bytes": 1193233
+  },
+  "beats/adapter_triplet_contrastive_best.pt": {
+    "sha256": "c28cf52ba244454025fb2a6233af60968050d9a45b231f331753257f132147f8",
+    "size_bytes": 1193281
+  },
+  "clap/adapter_sinkhorn_native_best.pt": {
+    "sha256": "c2a8490aed2ffedb109fd869948abf73bdb3e72196760b4aa6963bcea2772670",
+    "size_bytes": 534545
+  },
+  "clap/adapter_triplet_contrastive_best.pt": {
+    "sha256": "871dc1572400c01b1389ef77bac87a0b8f7d4e4f7af52bedd5408b0b9deba064",
+    "size_bytes": 534593
+  },
+  "encodec/adapter_sinkhorn_native_best.pt": {
+    "sha256": "114eafbba46b67d3fa222566eb451e308bc229a34b0add02afb26a95419a6d86",
+    "size_bytes": 38033
+  },
+  "encodec/adapter_triplet_contrastive_best.pt": {
+    "sha256": "196f16ef0af94d35a7c12978a60dfa807669394023a4585ce03688a110c44a2d",
+    "size_bytes": 38081
+  },
+  "openl3/adapter_sinkhorn_native_best.pt": {
+    "sha256": "80b5725aff058f7c165a5a640ea17e99ff110aee2624401ec9080743db0d8ab2",
+    "size_bytes": 534545
+  },
+  "openl3/adapter_triplet_contrastive_best.pt": {
+    "sha256": "6f1a896e7cff968f6263f89e1ade8abd25985ece51e8ae045c5169cf732bbb76",
+    "size_bytes": 534593
+  },
+  "panns/adapter_sinkhorn_native_best.pt": {
+    "sha256": "f341751c34f974761de029e2dbe5ddc2933b82d21de10eccf5a668557b1fccbc",
+    "size_bytes": 8418833
+  },
+  "panns/adapter_triplet_contrastive_best.pt": {
+    "sha256": "17931e5f5a9ba1c44e660cd523edbd84e04844ede77e0753bf29c5678f81ac06",
+    "size_bytes": 8418881
+  },
+  "panns_wglm/adapter_sinkhorn_native_best.pt": {
+    "sha256": "7849e756a556fb85182037d7d9fe28f59a954b29635b6d041f9249dc65b839fa",
+    "size_bytes": 8418833
+  },
+  "panns_wglm/adapter_triplet_contrastive_best.pt": {
+    "sha256": "bec236cc9558d6e261e307859407d007e988ea6a37c3a087a423570574b11419",
+    "size_bytes": 8418881
+  },
+  "vggish/adapter_sinkhorn_native_best.pt": {
+    "sha256": "c3dd3764436d1d392cc137b1e0d75ba4e6fadfa48ca972e495f32bfef2ef0598",
+    "size_bytes": 38033
+  },
+  "vggish/adapter_triplet_contrastive_best.pt": {
+    "sha256": "32dd1fdba3da4c7302c3ed333e3cd7de869bd35733e4af286ec28bc2adbd9a01",
+    "size_bytes": 38081
+  }
+}

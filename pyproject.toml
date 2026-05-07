@@ -1,0 +1,89 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "otadtk"
+version = "0.1.0"
+description = "Optimal Transport Audio Distance Toolkit: a structural replacement for FAD/KAD with a learned Riemannian ground metric and per-sample diagnostics."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10,<3.13"
+authors = [
+    { name = "Wonwoo Jeong", email = "jeongwonwoo@sogang.ac.kr" },
+]
+keywords = [
+    "audio",
+    "evaluation",
+    "fad",
+    "kad",
+    "otad",
+    "optimal-transport",
+    "sinkhorn",
+    "riemannian-metric",
+    "generative-audio",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.10",
+    "torch>=2.1",
+    "torchaudio>=2.1",
+    "soundfile>=0.12",
+    "librosa>=0.10",
+    "tqdm>=4.65",
+    "pyyaml>=6.0",
+    "geomloss>=0.2.6",
+    "POT>=0.9.0",
+    "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+all-encoders = [
+    "transformers>=4.40",
+    "encodec>=0.1.1",
+    "laion-clap>=1.1.4",
+    "torchopenl3>=0.4.0",
+    "resampy>=0.4.2",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/wonwoo-jeong/otadtk"
+Repository = "https://github.com/wonwoo-jeong/otadtk"
+Source = "https://github.com/wonwoo-jeong/otadtk"
+Issues = "https://github.com/wonwoo-jeong/otadtk/issues"
+
+[project.scripts]
+otadtk = "otadtk.__main__:main"
+otadtk-embeds = "otadtk.cli_embeds:main"
+otadtk-list-models = "otadtk.cli_list_models:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["otadtk*"]
+
+[tool.setuptools.package-data]
+"otadtk" = [
+    "py.typed",
+    "checkpoints/*/*.pt",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
