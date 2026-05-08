@@ -115,10 +115,12 @@ score, cj = compute_otad(ref_emb, eval_emb, return_sample_costs=True)
 
 ```bibtex
 @misc{jeong2026otad,
-  author       = {Wonwoo Jeong},
-  title        = {{OTAD}: Optimal Transport Audio Distance with Learned Riemannian Ground Metrics},
-  year         = {2026},
-  howpublished = {arXiv preprint}
+  author        = {Wonwoo Jeong},
+  title         = {{OTAD}: Optimal Transport Audio Distance with Learned Riemannian Ground Metrics},
+  year          = {2026},
+  eprint        = {2605.05554},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.AS}
 }
 ```
 

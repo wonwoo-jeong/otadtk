@@ -21,7 +21,7 @@ from .model_loader import (
     register_encoder,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 __all__ = [
     "OTAD",

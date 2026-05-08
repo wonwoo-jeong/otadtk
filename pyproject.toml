@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "otadtk"
-version = "0.1.1"
+version = "0.1.2"
 description = "Optimal Transport Audio Distance Toolkit: a structural replacement for FAD/KAD with a learned Riemannian ground metric and per-sample diagnostics."
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -67,6 +67,7 @@ Homepage = "https://github.com/wonwoo-jeong/otadtk"
 Repository = "https://github.com/wonwoo-jeong/otadtk"
 Source = "https://github.com/wonwoo-jeong/otadtk"
 Issues = "https://github.com/wonwoo-jeong/otadtk/issues"
+Paper = "https://arxiv.org/abs/2605.05554"
 
 [project.scripts]
 otadtk = "otadtk.__main__:main"
