@@ -113,9 +113,6 @@ score, cj = compute_otad(ref_emb, eval_emb, return_sample_costs=True)
 
 ## Citation
 
-If you use this code, please cite the paper. After arXiv assigns an id, add
-`eprint`, `url`, and (if applicable) proceedings metadata to the entry below.
-
 ```bibtex
 @misc{jeong2026otad,
   author       = {Wonwoo Jeong},
@@ -124,8 +121,6 @@ If you use this code, please cite the paper. After arXiv assigns an id, add
   howpublished = {arXiv preprint}
 }
 ```
-
-Add `eprint`, `archivePrefix`, `primaryClass`, `url`, and `doi` when you have them.
 
 ## License
 
