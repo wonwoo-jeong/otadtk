@@ -29,12 +29,18 @@ and **per-sample diagnostics**, with a CLI compatible with
 - **CPU & CUDA** — pure-PyTorch primitives; CUDA is auto-used when
   available.
 
-## Install
+ ## Install
+ 
+> **NOTE — review window.** PyPI distribution is paused during NeurIPS 2026
+> double-blind review. Until the camera-ready release, install from source:
+>
+> ```bash
+> git clone https://github.com/wonwoo-jeong/otadtk.git
+> cd otadtk && pip install -e ".[all-encoders]"
+> ```
+> A `pip install otadtk` workflow will be re-enabled at camera-ready
+> (see paper Appendix B.6).
 
-```bash
-pip install otadtk                     # core (numpy, torch, soundfile, …)
-pip install "otadtk[all-encoders]"     # adds transformers, encodec, openl3, laion-clap
-```
 
 Python 3.10–3.12, PyTorch ≥ 2.1.
 
